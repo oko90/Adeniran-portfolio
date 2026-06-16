@@ -162,7 +162,7 @@ footer {
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   nav {
     flex-direction: column;
     gap: 20px;
@@ -178,7 +178,7 @@ footer {
     font-size: 34px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .gallery {
     grid-template-columns: 1fr;
     gap: 22px;
