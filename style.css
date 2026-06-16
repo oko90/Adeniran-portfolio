@@ -122,6 +122,40 @@ nav a {
   font-weight: bold;
   text-decoration: none;
 }
+.project-screenshots {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.project-screenshots img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 12px;
+  display: block;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2563eb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .project-screenshots {
+    grid-template-columns: 1fr;
+  }
+
+  .project-screenshots img {
+    height: auto;
+  }
+}
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
