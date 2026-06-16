@@ -154,6 +154,21 @@ nav a {
   color: #ffffff;
 }
 
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skills-grid div {
+    background: #ffffff;
+    color: #1f3a5f;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
