@@ -136,22 +136,22 @@ nav a {
 }
 .empress-link {
     display: inline-block;
-    margin-top: 15px;
     padding: 12px 24px;
     background: #d4af37;
-    color: #000;
+    color: #000 !important;
     text-decoration: none;
     border-radius: 8px;
     font-weight: 600;
-    transition: 0.3s;
 }
 
 .empress-link:hover {
     background: #c19a2e;
 }
 
-.empress-link:visited {
-    color: #000;
+.empress-link:visited,
+.empress-link:active,
+.empress-link:focus {
+    color: #000 !important;
 }
 
 .skills-grid {
