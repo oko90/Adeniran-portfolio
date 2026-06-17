@@ -134,6 +134,30 @@ nav a {
 .project-link:active {
   color: #ffffff;
 }
+.second-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #2563eb;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.second-link:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.second-link:visited {
+  color: #ffffff;
+}
+
+.second-link:active {
+  color: #ffffff;
+}
 
 .skills-grid {
     display: flex;
