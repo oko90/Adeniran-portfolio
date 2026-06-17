@@ -295,3 +295,8 @@ a.project-link:hover {
   background: #1d4ed8 !important;
   transform: translateY(-2px);
 }
+
+.portfolio-card {
+    margin-bottom: 35px;
+    padding: 30px;
+}
