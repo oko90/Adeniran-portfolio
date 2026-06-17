@@ -134,25 +134,6 @@ nav a {
 .project-link:active {
   color: #ffffff;
 }
-.empress-link {
-    display: inline-block;
-    padding: 12px 24px;
-    background: #d4af37;
-    color: #000 !important;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 600;
-}
-
-.empress-link:hover {
-    background: #c19a2e;
-}
-
-.empress-link:visited,
-.empress-link:active,
-.empress-link:focus {
-    color: #000 !important;
-}
 
 .skills-grid {
     display: flex;
@@ -234,9 +215,17 @@ nav a {
   margin-top: 10px;
 }
 
-.contact a {
+.contact p a {
   color: #2563eb;
   text-decoration: none;
+}
+.contact .btn,
+.contact .btn:visited {
+  color: #fff;
+}
+
+.contact .btn.secondary:hover {
+  color: #1f3a5f;
 }
 
 footer {
